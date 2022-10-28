@@ -1,6 +1,6 @@
 # mbentley/apprise
 
-This docker image is based off of the [`caronc/apprise`](https://hub.docker.com/r/caronc/apprise) image on Docker Hub.
+This docker image is based off of the [`caronc/apprise`](https://hub.docker.com/r/caronc/apprise) image on Docker Hub for [`apprise`](https://github.com/caronc/apprise).
 
 ## Why
 
