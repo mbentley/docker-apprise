@@ -15,4 +15,4 @@ LABEL maintainer="Matt Bentley <mbentley@mbentley.net>"
 USER www-data
 VOLUME /config
 EXPOSE 8000
-CMD ["/usr/bin/supervisord", "-c", "/opt/apprise/webapp/etc/supervisord.conf"]
+CMD ["/usr/local/bin/supervisord", "-c", "/opt/apprise/webapp/etc/supervisord.conf"]
