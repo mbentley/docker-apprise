@@ -12,7 +12,6 @@ COPY --from=base / /
 LABEL maintainer="Matt Bentley <mbentley@mbentley.net>"
 
 # from https://github.com/caronc/apprise-api/blob/master/Dockerfile:
-USER www-data
 VOLUME /config
-EXPOSE 8000
-CMD ["/usr/local/bin/supervisord", "-c", "/opt/apprise/webapp/etc/supervisord.conf"]
+WORKDIR /opt/apprise
+CMD ["/opt/apprise/webapp/supervisord-startup"]
