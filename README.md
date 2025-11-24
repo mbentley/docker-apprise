@@ -1,5 +1,7 @@
 # mbentley/apprise
 
+**Note**: I am no longer maintaining this fork; see the upstream
+
 This docker image is based off of the [`caronc/apprise`](https://hub.docker.com/r/caronc/apprise) image on Docker Hub for [`caronc/apprise`](https://github.com/caronc/apprise).
 
 ## Why
